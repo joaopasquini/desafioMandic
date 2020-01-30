@@ -1,5 +1,4 @@
 package quartoDesafio;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -18,10 +17,7 @@ public class app {
 		System.out.println("Informe um Texto para aplicar o ASCII Art: ");
 		texto = leitor.nextLine();
 		
-		
-		escreverTextoComAsciiTrabalhoso(texto, codigoAlfaNumerico, asciiTrabalhoso);
-		
-		
+		escreverTextoComAsciiTrabalhoso(texto.toLowerCase(), codigoAlfaNumerico, asciiTrabalhoso);
 		
 	}
 	
